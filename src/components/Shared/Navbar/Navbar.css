@@ -1,0 +1,10 @@
+.navbar-background {
+  background-image: url("../../../../src/assets/nav/nav-background.png");
+  height: 800px;
+}
+
+@media (max-width: 768px){
+  .navbar-background{
+    height: 674px;
+  }
+}

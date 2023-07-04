@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Main from "../Layout/Main";
 
 const router = createBrowserRouter([
   {
@@ -7,7 +8,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element
+       
       }
     ]
   },
