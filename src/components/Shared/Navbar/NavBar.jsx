@@ -15,7 +15,7 @@ const NavBar = () => {
    };
 
   return (
-    <div className="navbar-background ">
+    <div className="bg-[#07332F] ">
       <nav className="max-w-screen-2xl mx-auto pt-5">
         {/* 1st start */}
         <div className="max-w-full mx-auto px-4 py-2 sm:px-12 lg:px-24">
@@ -28,7 +28,11 @@ const NavBar = () => {
                   to="/"
                   className="text-white font-bold text-xl flex justify-center items-center"
                 >
-                  <img className='mr-2 w-9 h-9 sm:h-[61px] sm:w-[61px]'  src={navImg} alt="Doc House Logo" />
+                  <img
+                    className="mr-2 w-9 h-9 sm:h-[61px] sm:w-[61px]"
+                    src={navImg}
+                    alt="Doc House Logo"
+                  />
                   <p>
                     <span className="text-[#F7A582] mr-2">Doc</span>House
                   </p>
