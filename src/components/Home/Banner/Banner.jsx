@@ -18,7 +18,7 @@ const Banner = () => {
               Lorem Ipsum is simply dummy text they are printing typesetting has
               been the industry’s stardard.
             </p>
-            <button className="bg-[#F7A582] btn mt-4 mb-4">All Service</button>
+            <button className="bg-[#F7A582] btn mt-4 mb-20">All Service</button>
           </div>
           {/* 2nd div */}
           <div className="sm:-mt-20">
