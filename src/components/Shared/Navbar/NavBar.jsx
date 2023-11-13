@@ -55,13 +55,19 @@ const NavBar = () => {
                   About
                 </Link>
                 <Link
-                  to="/about"
+                  to="/appointment"
                   className="text-white px-3 py-2 rounded-md font-medium"
                 >
                   Appointment
                 </Link>
                 <Link
-                  to="/about"
+                  to="/sign-up"
+                  className="text-white px-3 py-2 rounded-md  font-medium"
+                >
+                  Sign Up
+                </Link>
+                <Link
+                  to="/login"
                   className="text-white px-3 py-2 rounded-md  font-medium"
                 >
                   Login
@@ -112,14 +118,20 @@ const NavBar = () => {
               About
             </Link>
             <Link
-              to="/about"
-              className="text-white px-3 py-2 rounded-md  font-medium"
+              to="/appointment"
+              className="text-white px-3 py-2 rounded-md font-medium"
             >
               Appointment
             </Link>
             <Link
-              to="/about"
-              className="text-white px-3 py-2 rounded-md font-medium"
+              to="/sign-up"
+              className="text-white px-3 py-2 rounded-md  font-medium"
+            >
+              Sign Up
+            </Link>
+            <Link
+              to="/login"
+              className="text-white px-3 py-2 rounded-md  font-medium"
             >
               Login
             </Link>
