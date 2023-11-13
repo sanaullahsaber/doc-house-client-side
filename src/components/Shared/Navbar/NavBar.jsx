@@ -67,7 +67,7 @@ const NavBar = () => {
                   Sign Up
                 </Link>
                 <Link
-                  to="/login"
+                  to="/sign-in"
                   className="text-white px-3 py-2 rounded-md  font-medium"
                 >
                   Login
@@ -130,7 +130,7 @@ const NavBar = () => {
               Sign Up
             </Link>
             <Link
-              to="/login"
+              to="/sign-in"
               className="text-white px-3 py-2 rounded-md  font-medium"
             >
               Login
